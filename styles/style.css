@@ -263,11 +263,14 @@
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  min-height: 350px;
 }
 
 .footer__columns_content_copyright{
   display: flex;
   flex-basis: 711px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer{
