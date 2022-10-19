@@ -8,4 +8,10 @@
     justify-content: flex-end;
     right: 48px;
     top: 50%;
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  .feynman__link:hover{
+    opacity: 0.6;
   }
